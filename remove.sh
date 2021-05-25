@@ -10,3 +10,6 @@ docker rmi -f trio-db
 docker rmi -f trio-flask-app
 docker rmi -f python:3.6
 docker rmi -f mysql:5.7
+
+#remove network
+docker network rm trio-task-network
